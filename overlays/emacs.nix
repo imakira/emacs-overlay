@@ -132,6 +132,20 @@ let
                          };
                        });
 
+  emacs-30 = let base = (mkGitEmacs "emacs-30" ../repos/emacs/emacs-30.json) { };
+                       emacs = emacs-30;
+                   in
+                     base.overrideAttrs (
+                       oa: {
+                         patches = oa.patches ++ [
+                           # XXX: #318
+                           ./bytecomp-revert.patch
+                         ];
+                         passthru = oa.passthru // {
+                           pkgs = oa.passthru.pkgs.overrideScope (eself: esuper: { inherit emacs; });
+                         };
+                       });
+
   emacs-unstable-pgtk = let base = (mkGitEmacs "emacs-unstable-pgtk" ../repos/emacs/emacs-unstable.json) { withPgtk = true; };
                             emacs = emacs-unstable-pgtk;
                         in
@@ -186,6 +200,8 @@ let
 in
 {
   inherit emacs-git emacs-unstable;
+
+  inherit emacs-30;
 
   inherit emacs-pgtk emacs-unstable-pgtk;
 
