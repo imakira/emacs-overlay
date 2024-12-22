@@ -216,6 +216,8 @@ in
 
   inherit emacs-30;
 
+  inherit emacs-mps;
+
   inherit emacs-pgtk emacs-unstable-pgtk;
 
   inherit emacs-git-nox emacs-unstable-nox;
