@@ -146,6 +146,19 @@ let
                          };
                        });
 
+  emacs-mps = let base = (mkGitEmacs "emacs-mps" ../repos/emacs/emacs-mps.json) { };
+                       emacs = emacs-mps;
+                   in
+                     base.overrideAttrs (
+                       oa: {
+                         patches = oa.patches ++ [
+                           # XXX: #318
+                           ./bytecomp-revert.patch
+                         ];
+                         passthru = oa.passthru // {
+                           pkgs = oa.passthru.pkgs.overrideScope (eself: esuper: { inherit emacs; });
+                         };
+                       });
   emacs-unstable-pgtk = let base = (mkGitEmacs "emacs-unstable-pgtk" ../repos/emacs/emacs-unstable.json) { withPgtk = true; };
                             emacs = emacs-unstable-pgtk;
                         in
