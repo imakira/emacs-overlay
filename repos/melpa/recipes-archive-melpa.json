@@ -8875,29 +8875,6 @@
   }
  },
  {
-  "ename": "bookmark-view",
-  "commit": "6dfa514cb33a27d778eb4f8cb5c3118050fc41ae",
-  "sha256": "1i9dc9s45l7idsw6zwk2m31p583sfilrwdvpmnhh68yi7k50mv6l",
-  "fetcher": "github",
-  "repo": "minad/bookmark-view",
-  "unstable": {
-   "version": [
-    20240102,
-    334
-   ],
-   "commit": "2d16b2f88a106e57c58ad2af1f7166a847996512",
-   "sha256": "0sh15mbs5j6nq4d2dh4xg1hh783r6sx4vf30jk07jw1392anxwp8"
-  },
-  "stable": {
-   "version": [
-    0,
-    2
-   ],
-   "commit": "06e41de8ed7050e70627203c93b6132fec7e88d8",
-   "sha256": "07nvbp3b8bf2n5gaiz0fvr2himg624i80im4pzjx81k5fpb16sl7"
-  }
- },
- {
   "ename": "bool-flip",
   "commit": "f56377a7c3f4b75206ad9ba570c35dbf752079e9",
   "sha256": "1xfspqxshx7m8gh6g1snkaahka9f71fnq7hx81nik4s9s8pmxj9c",
@@ -38445,10 +38422,10 @@
  },
  {
   "ename": "exotica-theme",
-  "commit": "c3543d83fa2e0ed2b8b313f3c9e7a2c6f42b5085",
-  "sha256": "0jf18siqbwilx9v0mlm6v5k03c1v9jm4xdlk183bnrad09rdw6qh",
+  "commit": "ca71d6b596e2595f356f7848e202b2450d395f49",
+  "sha256": "0bzibc1s7a2qxh03573q43dw4pk1svrvh17n6nzxznag8abnndqn",
   "fetcher": "github",
-  "repo": "zenobht/exotica-theme",
+  "repo": "sacredyak/exotica-theme",
   "unstable": {
    "version": [
     20180212,
@@ -54222,29 +54199,6 @@
   }
  },
  {
-  "ename": "hasklig-mode",
-  "commit": "15a60278102de9e078b613456126945737718ce9",
-  "sha256": "0gz0k9ahk0jpdp893ckbby9ilkac1zp95kpfqdnpfy0a036xfwm7",
-  "fetcher": "github",
-  "repo": "minad/hasklig-mode",
-  "unstable": {
-   "version": [
-    20240102,
-    333
-   ],
-   "commit": "9933e55765f006322c7db4ff41c1c5789295768f",
-   "sha256": "0h6wk7y96h803n5215shb88vszpqahsr54af2zgw1h5s22x32xv3"
-  },
-  "stable": {
-   "version": [
-    0,
-    2
-   ],
-   "commit": "4b73d61f4ef1c73733f7201fbf0b49ba9e3395b6",
-   "sha256": "12a5hgaf2z6prqx45n6y0xyknz2sivpzwxjnzbsdx9sw6rniqm57"
-  }
- },
- {
   "ename": "hass",
   "commit": "d9f55bfa87d6fbaeafe713f8862369ea013a0c67",
   "sha256": "1jmxngfjad8vqd6abgqhf2a8x3vysxfhwk4qs0c327qfazmd7vq3",
@@ -55565,14 +55519,14 @@
   "repo": "emacs-helm/helm-dictionary",
   "unstable": {
    "version": [
-    20241221,
-    753
+    20241222,
+    651
    ],
    "deps": [
     "helm"
    ],
-   "commit": "50b35ed14eb4d3d48599d353f8031e6277633dc0",
-   "sha256": "0i0mi1ncbr7hfkx57nq1fc9hc5aprql9grxv09xcj3hbv1kn3avz"
+   "commit": "6114ef3171cad09c74ac0028db58fb479f3c5d21",
+   "sha256": "07pnzpr67fxam2qih6b3miyb84g27b8m4m37z1mdk4297qr060a5"
   }
  },
  {
@@ -66742,13 +66696,13 @@
   "unstable": {
    "version": [
     20241222,
-    312
+    1147
    ],
    "deps": [
     "compat"
    ],
-   "commit": "e603f9b735c342cd6c6de714366cfef77c8b779c",
-   "sha256": "12fnqdxvp8gf2vk37m2v4lfy86m8jjnwl4pw7hsxiamhhvp78y33"
+   "commit": "0e6d0e594ec48ad0f7787a544d77ce7c605da359",
+   "sha256": "0l0b5yqs8piidwsgi0l05lp3xc55686rnw3l63pf0yzlhijrkvyy"
   },
   "stable": {
    "version": [
@@ -74347,35 +74301,6 @@
   }
  },
  {
-  "ename": "lsp-p4",
-  "commit": "53f0da8b3d2903adeffdbc3d8df7d630bfd9ff71",
-  "sha256": "0cd3n17lqwz08zfkm9g5cr1cj2asznlbhxrym2a7b7shdmn3yx5f",
-  "fetcher": "github",
-  "repo": "dmakarov/p4ls",
-  "unstable": {
-   "version": [
-    20190127,
-    1049
-   ],
-   "deps": [
-    "lsp-mode"
-   ],
-   "commit": "084e33a5782f9153502d9b03e63d9cbbe81cdaeb",
-   "sha256": "0id3rw2p35cs7ax85590qs16zybgrjcapsnly5ifzjk0a5k7548c"
-  },
-  "stable": {
-   "version": [
-    0,
-    1
-   ],
-   "deps": [
-    "lsp-mode"
-   ],
-   "commit": "9ebc597ba37e6f8fccbc08327cf57ca8ec793ffe",
-   "sha256": "0dd4n0c1rbqcy7hl6gb9nqjj7hfv4566d6ipdlnxjma0zjs84sjf"
-  }
- },
- {
   "ename": "lsp-pascal",
   "commit": "41e4088e4b0cd99aafac40c83188112a680a65f7",
   "sha256": "08zvh9r1plnirdp8qb0p8xfq0y7qx7awq98gn8340f5zbwh9006q",
@@ -79800,11 +79725,11 @@
   "repo": "protesilaos/modus-themes",
   "unstable": {
    "version": [
-    20241217,
-    940
+    20241222,
+    910
    ],
-   "commit": "3c69034e87861e47fe1471b537798a954ebceac9",
-   "sha256": "1q0km83m9jk1jlsfxqcm7lhrscadbc9dj77r427ibbaxhlqb3kwd"
+   "commit": "d79e658660cf5e866c535ad684bc5758277ebdf7",
+   "sha256": "0030r1k52p6wdbxrzrmlkjciyfvjpxq4mwzxmaiqb4r8ks9lbsxc"
   },
   "stable": {
    "version": [
@@ -108678,10 +108603,10 @@
  },
  {
   "ename": "ropgadget",
-  "commit": "a780acaae76a8515bf0fa70c4b3ef2be0f724ab2",
-  "sha256": "181gqggha3zf469z2rzfvl7ngsszl984f1b8vabiqw4983ig06jr",
+  "commit": "30b240738501d41187b006199845e0277b5754b5",
+  "sha256": "0ym5rly5xvszq4ngr8mlx08k8293b7xhm660kfgha5rlvmmlxrhj",
   "fetcher": "github",
-  "repo": "Dragoncraft89/ropgadget-el",
+  "repo": "yvie-k/ropgadget-el",
   "unstable": {
    "version": [
     20230107,
@@ -133230,10 +133155,10 @@
  },
  {
   "ename": "zeno-theme",
-  "commit": "e6f007367d181005ebd1a4d73085d73e807d3583",
-  "sha256": "01kp0j27q9v62d45ail65al9zzfxpx7d7bj6gdzilbmwk3k7lxq5",
+  "commit": "f6633f0376fd50b6cc45d96c67848dbf8f38e210",
+  "sha256": "0akc4llnam4p699v01szhf0xj7r6475y14kbpxli29n5612cwdax",
   "fetcher": "github",
-  "repo": "zenobht/zeno-theme",
+  "repo": "sacredyak/zeno-theme",
   "unstable": {
    "version": [
     20211205,
