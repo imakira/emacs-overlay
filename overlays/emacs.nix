@@ -1,6 +1,6 @@
 self: super:
 let
-  mkGitEmacs = namePrefix: jsonFile: { ... }@args:
+  mkGitEmacs = namePrefix: jsonFile: { withMps ? false }@args:
     let
       repoMeta = super.lib.importJSON jsonFile;
       fetcher =
@@ -16,7 +16,7 @@ let
       super.emacs
       ([
 
-        (drv: drv.override ({ srcRepo = true; withXwidgets = false; } // args))
+        (drv: drv.override ({ srcRepo = true; withXwidgets = false; } // builtins.removeAttrs args [ "withMps" ]))
 
         (
           drv: drv.overrideAttrs (
@@ -30,7 +30,9 @@ let
               # fixes segfaults that only occur on aarch64-linux (#264)
               configureFlags = old.configureFlags ++
                                super.lib.optionals (super.stdenv.isLinux && super.stdenv.isAarch64)
-                                 [ "--enable-check-lisp-object-type" ];
+                                 [ "--enable-check-lisp-object-type" ] ++
+                               super.lib.optionals (withMps) ["--with-mps"];
+              buildInputs = old.buildInputs ++ super.lib.optionals withMps [super.mps];
 
               postPatch = old.postPatch + ''
                 substituteInPlace lisp/loadup.el \
@@ -146,7 +148,7 @@ let
                          };
                        });
 
-  emacs-mps = let base = (mkGitEmacs "emacs-mps" ../repos/emacs/emacs-mps.json) { };
+  emacs-mps = let base = (mkGitEmacs "emacs-mps" ../repos/emacs/emacs-mps.json) { withMps = true; };
                        emacs = emacs-mps;
                    in
                      base.overrideAttrs (
