@@ -1,6 +1,6 @@
 self: super:
 let
-  mkGitEmacs = namePrefix: jsonFile: { withMps ? false }@args:
+  mkGitEmacs = namePrefix: jsonFile: { withMps ? false, ...}@args:
     let
       repoMeta = super.lib.importJSON jsonFile;
       fetcher =
