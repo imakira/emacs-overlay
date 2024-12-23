@@ -31,7 +31,7 @@ let
               configureFlags = old.configureFlags ++
                                super.lib.optionals (super.stdenv.isLinux && super.stdenv.isAarch64)
                                  [ "--enable-check-lisp-object-type" ] ++
-                               super.lib.optionals (withMps) ["--with-mps"];
+                               super.lib.optionals (withMps) ["--with-mps=yes"];
               buildInputs = old.buildInputs ++ super.lib.optionals withMps [super.mps];
 
               postPatch = old.postPatch + ''
