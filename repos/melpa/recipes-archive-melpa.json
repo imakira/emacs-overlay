@@ -41226,11 +41226,11 @@
   "repo": "flycheck/flycheck",
   "unstable": {
    "version": [
-    20250104,
-    705
+    20250109,
+    714
    ],
-   "commit": "e2a7f331d0e3c3f74981a805ef849cfdfb5657f1",
-   "sha256": "1kqljl40cvzg2ws6hr993zxpgyhm5y2jag959d2w3qgvbyj4p6l0"
+   "commit": "87ad201889b2055d0c4b0839d2f8b80eeccae59e",
+   "sha256": "0xv1vpyvsic51ndpqq2aqvr95hfvdwdfc22az9j8v2mdjwh3y1n7"
   },
   "stable": {
    "version": [
@@ -52332,15 +52332,15 @@
   "repo": "karthink/gptel",
   "unstable": {
    "version": [
-    20250107,
-    34
+    20250109,
+    243
    ],
    "deps": [
     "compat",
     "transient"
    ],
-   "commit": "25efd55002c591b3721cdd2c96dac93d70dce814",
-   "sha256": "1s4aw9gm0z9ka18h4wf0lj8qgcgn5zx892sihrg7x9rj17b3clkp"
+   "commit": "ea041a499b26f677689d8df8588a65bd4938ebe0",
+   "sha256": "0g8cbh0ah11n5vcmmrhi0vh6fc0a3w9vz05pn25frsmn340ffr2r"
   },
   "stable": {
    "version": [
@@ -76867,11 +76867,11 @@
   "repo": "jrblevin/markdown-mode",
   "unstable": {
    "version": [
-    20241117,
-    1510
+    20250109,
+    323
    ],
-   "commit": "b8637bae075231d70fe7f845305eaba2c0240d89",
-   "sha256": "1sz7l7kbdahczqg52f4qnfpvykzczgrc9iwfn32i8n2cbby25clk"
+   "commit": "e1007785947ac8b32d8977a2843a11aded40682b",
+   "sha256": "0z7rfrls7d9cv67yvgzcy8l98lcb03gsx6ywq7gia40gis1md7ja"
   },
   "stable": {
    "version": [
@@ -124746,16 +124746,16 @@
   "repo": "gcr/tumblesocks",
   "unstable": {
    "version": [
-    20191014,
-    356
+    20250109,
+    547
    ],
    "deps": [
     "htmlize",
     "markdown-mode",
     "oauth"
    ],
-   "commit": "0e4c3847e31a59d405b9927107a23dde9531d744",
-   "sha256": "1gns60yj1ylm87456gzwr0gy0kivp5bd290rg6d8xbc86jdcls19"
+   "commit": "4e72482b21750f495bffa6785b873d86743e9c0a",
+   "sha256": "0y7m5m1q1wx23786mi2y38i6qw922qczd40qmjd2vr5xzndphn5j"
   }
  },
  {
