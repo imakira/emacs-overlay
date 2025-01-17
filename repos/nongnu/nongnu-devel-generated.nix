@@ -2306,10 +2306,10 @@
     elpaBuild {
       pname = "gptel";
       ename = "gptel";
-      version = "0.9.7.0.20250113.200408";
+      version = "0.9.7.0.20250116.214348";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/gptel-0.9.7.0.20250113.200408.tar";
-        sha256 = "0bqy3mxmnjvi1gjg9n2cz9r0hb6cg7c2d81rxg2fm4dirlyrg7ln";
+        url = "https://elpa.nongnu.org/nongnu-devel/gptel-0.9.7.0.20250116.214348.tar";
+        sha256 = "0dbfvz5lcxxhc86aygr2pidjvicw9jm329b1f29qw7xyiyi47cvb";
       };
       packageRequires = [
         compat
@@ -2373,10 +2373,10 @@
     elpaBuild {
       pname = "gruvbox-theme";
       ename = "gruvbox-theme";
-      version = "1.30.1.0.20240615.43214";
+      version = "1.30.1.0.20250117.22202";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/gruvbox-theme-1.30.1.0.20240615.43214.tar";
-        sha256 = "0fvhcilfkhwm544z3f16vssxc7fda1klib8fidnylaqj477pfigz";
+        url = "https://elpa.nongnu.org/nongnu-devel/gruvbox-theme-1.30.1.0.20250117.22202.tar";
+        sha256 = "17cqq6yazkaclqa2p45ihrap2399vymbnaisi7c1syqxpyayz431";
       };
       packageRequires = [ autothemer ];
       meta = {
