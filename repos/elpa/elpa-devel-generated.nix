@@ -1834,10 +1834,10 @@
     elpaBuild {
       pname = "dape";
       ename = "dape";
-      version = "0.21.0.0.20250115.215351";
+      version = "0.21.0.0.20250116.221623";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/dape-0.21.0.0.20250115.215351.tar";
-        sha256 = "04lqz0rr2w6fqkjnzqllva9ajbg62wac4zcj8bcafmy5p6k6nzzw";
+        url = "https://elpa.gnu.org/devel/dape-0.21.0.0.20250116.221623.tar";
+        sha256 = "0pbs45701s70qd3fnc2l6g5gb16bcjm2rm8afnipwlz5rqsr5z16";
       };
       packageRequires = [ jsonrpc ];
       meta = {
@@ -1968,10 +1968,10 @@
     elpaBuild {
       pname = "denote";
       ename = "denote";
-      version = "3.1.0.0.20250115.151533";
+      version = "3.1.0.0.20250117.75131";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/denote-3.1.0.0.20250115.151533.tar";
-        sha256 = "15q622gxph5lxabzsr05i11m3r2gz032skrrhcqmq76j3950ib3w";
+        url = "https://elpa.gnu.org/devel/denote-3.1.0.0.20250117.75131.tar";
+        sha256 = "0dnfqdd56vk86w0lz5pv4fg3qh858biagawsxd67gnb2fjl8zrxb";
       };
       packageRequires = [ ];
       meta = {
@@ -9543,10 +9543,10 @@
     elpaBuild {
       pname = "vertico-posframe";
       ename = "vertico-posframe";
-      version = "0.7.8.0.20241225.125045";
+      version = "0.8.0.0.20250117.11219";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/vertico-posframe-0.7.8.0.20241225.125045.tar";
-        sha256 = "11yhjx8hk5j04wagzwxm2rsb124q0s25m5bfr2a5qpalhj7dxhzq";
+        url = "https://elpa.gnu.org/devel/vertico-posframe-0.8.0.0.20250117.11219.tar";
+        sha256 = "12vl52nh8br714riqkggrblkqzczwvr6kwha0avb9vzz1l0x4fvf";
       };
       packageRequires = [
         posframe
