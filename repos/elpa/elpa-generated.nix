@@ -2596,6 +2596,7 @@
   ) { };
   eglot = callPackage (
     {
+      compat,
       eldoc,
       elpaBuild,
       external-completion,
@@ -2605,23 +2606,26 @@
       lib,
       project,
       seq,
+      track-changes,
       xref,
     }:
     elpaBuild {
       pname = "eglot";
       ename = "eglot";
-      version = "1.17";
+      version = "1.18";
       src = fetchurl {
-        url = "https://elpa.gnu.org/packages/eglot-1.17.tar";
-        sha256 = "1cnx522wb49f1dkm80sigz3kvzrblmq5b1lnfyq9wdnh6zdm4l00";
+        url = "https://elpa.gnu.org/packages/eglot-1.18.tar";
+        sha256 = "1zqs498yn3i8wn045jgq9nw4pddiyrwwgyq39mndzvgvi1j6a431";
       };
       packageRequires = [
+        compat
         eldoc
         external-completion
         flymake
         jsonrpc
         project
         seq
+        track-changes
         xref
       ];
       meta = {
@@ -4637,10 +4641,10 @@
     elpaBuild {
       pname = "kubed";
       ename = "kubed";
-      version = "0.4.2";
+      version = "0.4.3";
       src = fetchurl {
-        url = "https://elpa.gnu.org/packages/kubed-0.4.2.tar";
-        sha256 = "0qbc8cw8a823dhqa34xhbf3mdbdihzdg1v0ya7ykm3789c2dhddb";
+        url = "https://elpa.gnu.org/packages/kubed-0.4.3.tar";
+        sha256 = "0aa4fwdprcmccmrsqnrvvhdzv01wjsvx29lnqw17hakyy5gkrgns";
       };
       packageRequires = [ ];
       meta = {
@@ -4895,10 +4899,10 @@
     elpaBuild {
       pname = "llm";
       ename = "llm";
-      version = "0.20.0";
+      version = "0.22.0";
       src = fetchurl {
-        url = "https://elpa.gnu.org/packages/llm-0.20.0.tar";
-        sha256 = "12a6z2knsxp8jy0v9hsfsb7kdzyj6pnq5h58vnkrizd95zp6zf91";
+        url = "https://elpa.gnu.org/packages/llm-0.22.0.tar";
+        sha256 = "191chymh1ykngvwznb75ial3fnr98k3p3379gl6v8r55gic14byh";
       };
       packageRequires = [
         plz
@@ -6007,10 +6011,10 @@
     elpaBuild {
       pname = "org";
       ename = "org";
-      version = "9.7.19";
+      version = "9.7.20";
       src = fetchurl {
-        url = "https://elpa.gnu.org/packages/org-9.7.19.tar";
-        sha256 = "0v7ridhsz12iwznk8165ll61i1w1avhxfrq3p82p9r6ir2xdan1g";
+        url = "https://elpa.gnu.org/packages/org-9.7.20.tar";
+        sha256 = "06pp3092mzrn5fqs0rzhrsa3k8sknx96bwn7vr7w1y0n1m81s0ln";
       };
       packageRequires = [ ];
       meta = {
