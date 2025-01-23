@@ -544,10 +544,10 @@
     elpaBuild {
       pname = "cider";
       ename = "cider";
-      version = "1.17.0snapshot0.20250120.93508";
+      version = "1.17.0snapshot0.20250122.80901";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/cider-1.17.0snapshot0.20250120.93508.tar";
-        sha256 = "15c0gzpqn90cbxgj60yrc1cmgh00lc89zv9cs9giaq0xmspyq22h";
+        url = "https://elpa.nongnu.org/nongnu-devel/cider-1.17.0snapshot0.20250122.80901.tar";
+        sha256 = "11vw7qbkix7zs562j1cc0z03d7dyc2l5ml2njp656bgahi4w7l5g";
       };
       packageRequires = [
         clojure-mode
@@ -4050,10 +4050,10 @@
     elpaBuild {
       pname = "racket-mode";
       ename = "racket-mode";
-      version = "1.0.20250120.105804";
+      version = "1.0.20250122.84941";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/racket-mode-1.0.20250120.105804.tar";
-        sha256 = "160giwc53b8grazxpwsv65qg7ga73frlgrihw4l2b7q4f308zdp9";
+        url = "https://elpa.nongnu.org/nongnu-devel/racket-mode-1.0.20250122.84941.tar";
+        sha256 = "1bnnb16crqy1cc6rasql3w5zsjri1via2q2ccvn74isaw7z6vh1r";
       };
       packageRequires = [ ];
       meta = {
