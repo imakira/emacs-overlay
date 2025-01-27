@@ -2766,10 +2766,10 @@
     elpaBuild {
       pname = "ellama";
       ename = "ellama";
-      version = "0.13.2";
+      version = "0.13.4";
       src = fetchurl {
-        url = "https://elpa.gnu.org/packages/ellama-0.13.2.tar";
-        sha256 = "0kd2b9bb0sn0x2r3ypq58fymyaxjnp2gg1w6i30mzy5bl532xh26";
+        url = "https://elpa.gnu.org/packages/ellama-0.13.4.tar";
+        sha256 = "1dsd9xj21x9v5wajzqvx1n4jbrnz29j3na9sz7l2hik7g090498f";
       };
       packageRequires = [
         compat
@@ -3158,10 +3158,10 @@
     elpaBuild {
       pname = "exwm";
       ename = "exwm";
-      version = "0.32";
+      version = "0.33";
       src = fetchurl {
-        url = "https://elpa.gnu.org/packages/exwm-0.32.tar";
-        sha256 = "0k3c7grgkkpgd0r8b9vsqa5ywhb4vwxr3wfjyfxw8xy0yq7y0jvn";
+        url = "https://elpa.gnu.org/packages/exwm-0.33.tar";
+        sha256 = "13wywayvdxpr2z14lri3ggni1wj20r452a0gxnx0cpgif3c1l2sx";
       };
       packageRequires = [
         compat
@@ -7718,10 +7718,10 @@
     elpaBuild {
       pname = "show-font";
       ename = "show-font";
-      version = "0.1.1";
+      version = "0.2.1";
       src = fetchurl {
-        url = "https://elpa.gnu.org/packages/show-font-0.1.1.tar";
-        sha256 = "0l7l2kx5kq5p5kzigj0h3dwsf2hbcz8xlj06bz5m91gjblm3q6pd";
+        url = "https://elpa.gnu.org/packages/show-font-0.2.1.tar";
+        sha256 = "1nbmzbf6gqzllv025xdbrqpq1j7prmv8vh86h9abaikjradiysmx";
       };
       packageRequires = [ ];
       meta = {
@@ -8937,10 +8937,10 @@
     elpaBuild {
       pname = "triples";
       ename = "triples";
-      version = "0.4.1";
+      version = "0.5.0";
       src = fetchurl {
-        url = "https://elpa.gnu.org/packages/triples-0.4.1.tar";
-        sha256 = "1x5sws7zhm9wz5d430bs8g8rnxn4y57pqkqhxcsi9d3vbs39wfn8";
+        url = "https://elpa.gnu.org/packages/triples-0.5.0.tar";
+        sha256 = "0s2p5zkgp1xavib3yrjwkbyqy6clgafz7ywy65kharapx0cjl4nm";
       };
       packageRequires = [ seq ];
       meta = {
