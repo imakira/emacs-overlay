@@ -813,10 +813,10 @@
     elpaBuild {
       pname = "boxy-headings";
       ename = "boxy-headings";
-      version = "2.1.9";
+      version = "2.1.10";
       src = fetchurl {
-        url = "https://elpa.gnu.org/packages/boxy-headings-2.1.9.tar";
-        sha256 = "0i8qq6w7m0p7wby7cnyb3wlnp1bb1yjw44msx5r0l4lk4255vynf";
+        url = "https://elpa.gnu.org/packages/boxy-headings-2.1.10.tar";
+        sha256 = "0a3933yckjw7b8jk5nnlb6hwjf1vzi1ydwk70csmz73402k0jxk1";
       };
       packageRequires = [
         boxy
@@ -1489,10 +1489,10 @@
     elpaBuild {
       pname = "consult-hoogle";
       ename = "consult-hoogle";
-      version = "0.3.0";
+      version = "0.4.0";
       src = fetchurl {
-        url = "https://elpa.gnu.org/packages/consult-hoogle-0.3.0.tar";
-        sha256 = "0jpyncx1zc8kzmnr0wlq81qz0y3jgk421yw0picjj8yflj6905ix";
+        url = "https://elpa.gnu.org/packages/consult-hoogle-0.4.0.tar";
+        sha256 = "0x5bnf5fk15w9j7jrqg26k1fb79iabc8yl3ix4jlkb4cjgv35dfj";
       };
       packageRequires = [ consult ];
       meta = {
@@ -1814,10 +1814,10 @@
     elpaBuild {
       pname = "dape";
       ename = "dape";
-      version = "0.21.0";
+      version = "0.22.0";
       src = fetchurl {
-        url = "https://elpa.gnu.org/packages/dape-0.21.0.tar";
-        sha256 = "0n4bcpjzrzamb0s75hmz8wva39vk603yy45di3iqb8zszd9b3wxj";
+        url = "https://elpa.gnu.org/packages/dape-0.22.0.tar";
+        sha256 = "06sfhh4sn9ddmf83h3a7hcx6ghinrigl5s7a2pa3c0abfg3jjbsb";
       };
       packageRequires = [ jsonrpc ];
       meta = {
@@ -6172,10 +6172,10 @@
     elpaBuild {
       pname = "org-remark";
       ename = "org-remark";
-      version = "1.2.2";
+      version = "1.3.0";
       src = fetchurl {
-        url = "https://elpa.gnu.org/packages/org-remark-1.2.2.tar";
-        sha256 = "01iprzgbyvbfpxp6fls4lfx2lxx7xkff80m35s9kc0ih5jlxc5qs";
+        url = "https://elpa.gnu.org/packages/org-remark-1.3.0.tar";
+        sha256 = "0i4srqhxl2rslzf3fy3rk231hsvwkn46yghy7x40kmc2jgnvs1gf";
       };
       packageRequires = [ org ];
       meta = {
@@ -8757,10 +8757,10 @@
     elpaBuild {
       pname = "tramp";
       ename = "tramp";
-      version = "2.7.2";
+      version = "2.7.2.1";
       src = fetchurl {
-        url = "https://elpa.gnu.org/packages/tramp-2.7.2.tar";
-        sha256 = "1m1ar9k5f4yx98m8v0y8rm7hq5dwjafb096gmdg6mz57k1k3y6vl";
+        url = "https://elpa.gnu.org/packages/tramp-2.7.2.1.tar";
+        sha256 = "17178jpn05bpy1cmxf27kdmrabcgcghslr7ri49dqm3sqydk4fmm";
       };
       packageRequires = [ ];
       meta = {
