@@ -2831,10 +2831,10 @@
     elpaBuild {
       pname = "ellama";
       ename = "ellama";
-      version = "1.0.1";
+      version = "1.0.3";
       src = fetchurl {
-        url = "https://elpa.gnu.org/packages/ellama-1.0.1.tar";
-        sha256 = "0sp5s46amnz8954nyxc6lbn7bwfb316g1j3smmq0cdwi3v4chhbh";
+        url = "https://elpa.gnu.org/packages/ellama-1.0.3.tar";
+        sha256 = "0i6qxqzq0h9mns9v9vfwa0x10apfs062xjv27z3xljpxb5y724m9";
       };
       packageRequires = [
         compat
@@ -6148,10 +6148,10 @@
     elpaBuild {
       pname = "org-gnosis";
       ename = "org-gnosis";
-      version = "0.0.3";
+      version = "0.0.5";
       src = fetchurl {
-        url = "https://elpa.gnu.org/packages/org-gnosis-0.0.3.tar";
-        sha256 = "187hdkxn805cgh88qaqa1p0kbhvir3x2plqr8avv9gib4q8j1vg4";
+        url = "https://elpa.gnu.org/packages/org-gnosis-0.0.5.tar";
+        sha256 = "024l98x87s4rpa5y9id979f9kjbaf6f5pfkypvlhx8dfk0rhyckf";
       };
       packageRequires = [
         compat
@@ -6444,6 +6444,27 @@
       packageRequires = [ async ];
       meta = {
         homepage = "https://elpa.gnu.org/packages/paced.html";
+        license = lib.licenses.free;
+      };
+    }
+  ) { };
+  package-x = callPackage (
+    {
+      elpaBuild,
+      fetchurl,
+      lib,
+    }:
+    elpaBuild {
+      pname = "package-x";
+      ename = "package-x";
+      version = "1.0";
+      src = fetchurl {
+        url = "https://elpa.gnu.org/packages/package-x-1.0.tar";
+        sha256 = "1wzwpqy992qv4jizx6fv6r1aw46gjzk49f4vv178bmshz03vndrx";
+      };
+      packageRequires = [ ];
+      meta = {
+        homepage = "https://elpa.gnu.org/packages/package-x.html";
         license = lib.licenses.free;
       };
     }
