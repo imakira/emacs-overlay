@@ -2824,19 +2824,21 @@
       fetchurl,
       lib,
       llm,
+      plz,
       transient,
     }:
     elpaBuild {
       pname = "ellama";
       ename = "ellama";
-      version = "1.3.0";
+      version = "1.4.0";
       src = fetchurl {
-        url = "https://elpa.gnu.org/packages/ellama-1.3.0.tar";
-        sha256 = "1p6da9z5qrn2n9xzsi2q1ddn9dq67svanl01bb1xmdgbskdh56zh";
+        url = "https://elpa.gnu.org/packages/ellama-1.4.0.tar";
+        sha256 = "0zgwrsqlcrkcrhgqfv7jlzg1df9i4jl3jzrvcy36jjlyr7b35vw2";
       };
       packageRequires = [
         compat
         llm
+        plz
         transient
       ];
       meta = {
@@ -6815,10 +6817,10 @@
     elpaBuild {
       pname = "popper";
       ename = "popper";
-      version = "0.4.6";
+      version = "0.4.8";
       src = fetchurl {
-        url = "https://elpa.gnu.org/packages/popper-0.4.6.tar";
-        sha256 = "0xwy4p9g0lfd4ybamsl5gsppmx79yv16s4lh095x5y5qfmgcvq2c";
+        url = "https://elpa.gnu.org/packages/popper-0.4.8.tar";
+        sha256 = "1i667qablblr8s614j1p6zfyqkwci56fpycb8hbxap6fpirgmv9x";
       };
       packageRequires = [ ];
       meta = {
