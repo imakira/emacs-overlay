@@ -2046,6 +2046,28 @@
       };
     }
   ) { };
+  denote-search = callPackage (
+    {
+      denote,
+      elpaBuild,
+      fetchurl,
+      lib,
+    }:
+    elpaBuild {
+      pname = "denote-search";
+      ename = "denote-search";
+      version = "1.0.2";
+      src = fetchurl {
+        url = "https://elpa.gnu.org/packages/denote-search-1.0.2.tar";
+        sha256 = "0apwrfq2ajhx4x2pyr7zz1qp1gawgg5ngr98y6zcn71f3by0zykn";
+      };
+      packageRequires = [ denote ];
+      meta = {
+        homepage = "https://elpa.gnu.org/packages/denote-search.html";
+        license = lib.licenses.free;
+      };
+    }
+  ) { };
   detached = callPackage (
     {
       elpaBuild,
@@ -6689,10 +6711,10 @@
     elpaBuild {
       pname = "plz-event-source";
       ename = "plz-event-source";
-      version = "0.1.1";
+      version = "0.1.2";
       src = fetchurl {
-        url = "https://elpa.gnu.org/packages/plz-event-source-0.1.1.tar";
-        sha256 = "0mraza6r8p6rwmsmgz7kkllhwi6spz8jzkk458jlgqxilm0jajib";
+        url = "https://elpa.gnu.org/packages/plz-event-source-0.1.2.tar";
+        sha256 = "1gq0w6pkg58066gwc58y3j0w2hbfzmy1r62j02jfiqjb5am1gfjk";
       };
       packageRequires = [ plz-media-type ];
       meta = {
@@ -6711,10 +6733,10 @@
     elpaBuild {
       pname = "plz-media-type";
       ename = "plz-media-type";
-      version = "0.2.2";
+      version = "0.2.3";
       src = fetchurl {
-        url = "https://elpa.gnu.org/packages/plz-media-type-0.2.2.tar";
-        sha256 = "0m1hm2myc5pqax8kkz910wn3443pxdsav7rcf7bcqnim4l0ismvn";
+        url = "https://elpa.gnu.org/packages/plz-media-type-0.2.3.tar";
+        sha256 = "1qb0zag7isnl9hx71jma5yk6rinfdbscmlgwg2489067vshf9x7b";
       };
       packageRequires = [ plz ];
       meta = {
@@ -8954,10 +8976,10 @@
     elpaBuild {
       pname = "transient";
       ename = "transient";
-      version = "0.8.4";
+      version = "0.8.5";
       src = fetchurl {
-        url = "https://elpa.gnu.org/packages/transient-0.8.4.tar";
-        sha256 = "1dc636j9194i9pfj4rxxfy33f5rwsqp5qkf1c7a06yazblvgaqxi";
+        url = "https://elpa.gnu.org/packages/transient-0.8.5.tar";
+        sha256 = "0ydxddlf9aniindgi135rj3c1d1ar5qi5kwh1qkdff9124d6f0kh";
       };
       packageRequires = [
         compat
