@@ -923,10 +923,10 @@
     elpaBuild {
       pname = "dirvish";
       ename = "dirvish";
-      version = "2.1.0.0.20250301.223800";
+      version = "2.1.0.0.20250302.153907";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/dirvish-2.1.0.0.20250301.223800.tar";
-        sha256 = "1pdwzcx5mdix223v1ilqkqasvb0gvkimxan2p0j66w01mlinpfzj";
+        url = "https://elpa.nongnu.org/nongnu-devel/dirvish-2.1.0.0.20250302.153907.tar";
+        sha256 = "0xpc3aj06ppfh2z8lj90z642fwiskfwjy5m8z7q9y5d93v4igin5";
       };
       packageRequires = [ ];
       meta = {
@@ -3223,10 +3223,10 @@
     elpaBuild {
       pname = "magit";
       ename = "magit";
-      version = "4.3.0.0.20250301.162342";
+      version = "4.3.1.0.20250301.231530";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/magit-4.3.0.0.20250301.162342.tar";
-        sha256 = "1i3yj9bigpdp47knh9i2sxg7khbi17mcw79kyh79j0c4mw3alz13";
+        url = "https://elpa.nongnu.org/nongnu-devel/magit-4.3.1.0.20250301.231530.tar";
+        sha256 = "1633fihqqdsapzswvzzjincyg2pv0dxj7wa0f92snsgnwp83kg1n";
       };
       packageRequires = [
         compat
@@ -3825,10 +3825,10 @@
     elpaBuild {
       pname = "orgit";
       ename = "orgit";
-      version = "2.0.0.0.20250221.152651";
+      version = "2.0.1.0.20250301.233925";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/orgit-2.0.0.0.20250221.152651.tar";
-        sha256 = "0xyg1yjq4x78zlqn17vf01xhv0if0z1xkcxk2sixa3afxbp5bq4l";
+        url = "https://elpa.nongnu.org/nongnu-devel/orgit-2.0.1.0.20250301.233925.tar";
+        sha256 = "0adppm61dn3cfkgdyc5ik42z0byvyc2dkwhjdzvw66nnl3fjb3ch";
       };
       packageRequires = [
         compat
