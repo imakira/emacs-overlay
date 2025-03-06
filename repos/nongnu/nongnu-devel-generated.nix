@@ -93,10 +93,10 @@
     elpaBuild {
       pname = "annotate";
       ename = "annotate";
-      version = "2.2.3.0.20241017.150805";
+      version = "2.2.3.0.20250305.172248";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/annotate-2.2.3.0.20241017.150805.tar";
-        sha256 = "19m3xg2yhf9gxyvp3n143dkyb6r592b2bv7sxcj4g8fhm7qlj6jc";
+        url = "https://elpa.nongnu.org/nongnu-devel/annotate-2.2.3.0.20250305.172248.tar";
+        sha256 = "0fz2d3zpxqjfqm75nr6cdd4h6haikc6mj8iqzcpl0d8pivdjznqz";
       };
       packageRequires = [ ];
       meta = {
@@ -544,10 +544,10 @@
     elpaBuild {
       pname = "cider";
       ename = "cider";
-      version = "1.18.0snapshot0.20250304.135830";
+      version = "1.18.0snapshot0.20250305.132250";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/cider-1.18.0snapshot0.20250304.135830.tar";
-        sha256 = "1b5sy500fan29skhj8a4xcygida2wcjpn768vjlzc77zcz6kfrg0";
+        url = "https://elpa.nongnu.org/nongnu-devel/cider-1.18.0snapshot0.20250305.132250.tar";
+        sha256 = "09a7kin91dmhhbyzvlalijiyjnzal2mqjcqbmrzq6nm1lswdrzvx";
       };
       packageRequires = [
         clojure-mode
@@ -2479,10 +2479,10 @@
     elpaBuild {
       pname = "haskell-mode";
       ename = "haskell-mode";
-      version = "17.5.0.20250224.154800";
+      version = "17.5.0.20250305.134904";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/haskell-mode-17.5.0.20250224.154800.tar";
-        sha256 = "1ac93cgr1w6x260k5gyhgjg17v9j46v5kp0kbw59sqzplicwvzlj";
+        url = "https://elpa.nongnu.org/nongnu-devel/haskell-mode-17.5.0.20250305.134904.tar";
+        sha256 = "10pn6b4hml8wzzliynlag1fr7lnc526gzbfqbhs3kzh6qx5rf8zn";
       };
       packageRequires = [ ];
       meta = {
@@ -4220,10 +4220,10 @@
     elpaBuild {
       pname = "radio";
       ename = "radio";
-      version = "0.4.0.0.20250303.223526";
+      version = "0.4.1.0.20250305.101402";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/radio-0.4.0.0.20250303.223526.tar";
-        sha256 = "0nw64y40l4fw0cfs018i1227ldmf30817l6kxhw52dgny1wg58ns";
+        url = "https://elpa.nongnu.org/nongnu-devel/radio-0.4.1.0.20250305.101402.tar";
+        sha256 = "0l71sgr2a3xpmq3s6ilzk89psjl2zymc15v2la3zd0iw1xbd97x6";
       };
       packageRequires = [ ];
       meta = {

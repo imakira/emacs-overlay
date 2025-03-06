@@ -4243,10 +4243,10 @@
     elpaBuild {
       pname = "radio";
       ename = "radio";
-      version = "0.4.0";
+      version = "0.4.1";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu/radio-0.4.0.tar";
-        sha256 = "0krpd5zi7kf7makhq9y01p3sj35gmxd1ian43id5smz36v3faxwn";
+        url = "https://elpa.nongnu.org/nongnu/radio-0.4.1.tar";
+        sha256 = "049j72m7f3a2naffpp8q4q0qrgqw0mnw5paqwabig417mwzzhqqr";
       };
       packageRequires = [ ];
       meta = {
