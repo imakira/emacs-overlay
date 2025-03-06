@@ -2348,10 +2348,10 @@
     elpaBuild {
       pname = "gptel";
       ename = "gptel";
-      version = "0.9.7.0.20250228.211229";
+      version = "0.9.7.0.20250305.191032";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/gptel-0.9.7.0.20250228.211229.tar";
-        sha256 = "198j5q0xjxs6iss4dgshbl9lxsxxbfl177bqhylv9951mx45chk5";
+        url = "https://elpa.nongnu.org/nongnu-devel/gptel-0.9.7.0.20250305.191032.tar";
+        sha256 = "1vmb5acny8rx12801qyig68szr4qlkggzyzx0mrj88jwdwmknxmr";
       };
       packageRequires = [
         compat
@@ -3097,10 +3097,10 @@
     elpaBuild {
       pname = "loopy";
       ename = "loopy";
-      version = "0.14.0.0.20250215.214626";
+      version = "0.14.0.0.20250306.20614";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/loopy-0.14.0.0.20250215.214626.tar";
-        sha256 = "1p2bphisaxvncgpfnqn2gid39wd0fis1bsw33d0xlnhxx7v984ds";
+        url = "https://elpa.nongnu.org/nongnu-devel/loopy-0.14.0.0.20250306.20614.tar";
+        sha256 = "0vggsncnj7fbc307sa78pl6aszzn7644mrhsa8q24syp9xn1xwrz";
       };
       packageRequires = [
         compat
@@ -3303,10 +3303,10 @@
     elpaBuild {
       pname = "mastodon";
       ename = "mastodon";
-      version = "1.1.11.0.20250228.84554";
+      version = "1.1.12.0.20250305.210452";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/mastodon-1.1.11.0.20250228.84554.tar";
-        sha256 = "0gdjp5y6mpbr3wc1va3454krqxb232src2q60rnc83jab221l76j";
+        url = "https://elpa.nongnu.org/nongnu-devel/mastodon-1.1.12.0.20250305.210452.tar";
+        sha256 = "1dnii6hwxjbprm9cskah40vk41hgnbnvxnjykf8hssf2d5g1qsg3";
       };
       packageRequires = [
         persist
@@ -5059,10 +5059,10 @@
     elpaBuild {
       pname = "treesit-fold";
       ename = "treesit-fold";
-      version = "0.2.1.0.20250227.114424";
+      version = "0.2.1.0.20250305.214142";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/treesit-fold-0.2.1.0.20250227.114424.tar";
-        sha256 = "1y9awc0pmxvkpsh7avvsx5lbfgq3zvq67xhd6kng7j1mj3lkdl53";
+        url = "https://elpa.nongnu.org/nongnu-devel/treesit-fold-0.2.1.0.20250305.214142.tar";
+        sha256 = "1h3ymlcimrvgm62k2w05xf53fk8n80n3pxz9f4lm6nwpjn8ns8ll";
       };
       packageRequires = [ ];
       meta = {
@@ -5667,10 +5667,10 @@
     elpaBuild {
       pname = "zig-mode";
       ename = "zig-mode";
-      version = "0.0.8.0.20250228.122402";
+      version = "0.0.8.0.20250305.223352";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/zig-mode-0.0.8.0.20250228.122402.tar";
-        sha256 = "036wk2x7l4izfamd71169scg7xk97cp0iyya1almsphhmzin12yw";
+        url = "https://elpa.nongnu.org/nongnu-devel/zig-mode-0.0.8.0.20250305.223352.tar";
+        sha256 = "1hdmvsnfvqb0ngx3kzv7855c9bmn30bk2zc4nizh98abdh1gk02g";
       };
       packageRequires = [ reformatter ];
       meta = {
