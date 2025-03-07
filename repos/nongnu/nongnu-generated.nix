@@ -93,10 +93,10 @@
     elpaBuild {
       pname = "annotate";
       ename = "annotate";
-      version = "2.2.3";
+      version = "2.3.0";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu/annotate-2.2.3.tar";
-        sha256 = "1x0v51rbnyzwvjwp4xwsd2a4xisid65zgww6yk0bb81421i54ps3";
+        url = "https://elpa.nongnu.org/nongnu/annotate-2.3.0.tar";
+        sha256 = "0l5pw9z4i1mlf346dg7brha37jmlrq6pyvjdj2mxhdfs6nzddaba";
       };
       packageRequires = [ ];
       meta = {
@@ -1201,10 +1201,10 @@
     elpaBuild {
       pname = "elpher";
       ename = "elpher";
-      version = "3.6.4";
+      version = "3.6.5";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu/elpher-3.6.4.tar";
-        sha256 = "0f6hsw50a36jyp1ikawcdj9yn3isks03ax47x8vflmayydndir4g";
+        url = "https://elpa.nongnu.org/nongnu/elpher-3.6.5.tar";
+        sha256 = "0ab6m1c32j3rp577v8qb4k542fjgpvvkcgjvzfcc56fwb9d6xfy0";
       };
       packageRequires = [ ];
       meta = {
@@ -3084,10 +3084,10 @@
     elpaBuild {
       pname = "logview";
       ename = "logview";
-      version = "0.19.1";
+      version = "0.19.2";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu/logview-0.19.1.tar";
-        sha256 = "0gg393ygrqyghmaa0ykml9dfkxj13bh5pw82hiahmngy5lrygb26";
+        url = "https://elpa.nongnu.org/nongnu/logview-0.19.2.tar";
+        sha256 = "0jcc726fh6lq9x6hhl9cm4i98irf5z3pz1lchkwwy21jippxwj2i";
       };
       packageRequires = [
         compat
