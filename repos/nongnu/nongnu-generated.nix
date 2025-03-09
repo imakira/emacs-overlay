@@ -946,10 +946,10 @@
     elpaBuild {
       pname = "dirvish";
       ename = "dirvish";
-      version = "2.1.0";
+      version = "2.2.3";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu/dirvish-2.1.0.tar";
-        sha256 = "09ngncazniz1b4z5azlgcyfgwcjg2fpk0yrp2by3n6db24fpali0";
+        url = "https://elpa.nongnu.org/nongnu/dirvish-2.2.3.tar";
+        sha256 = "0s5fff644clpkwjbz8a478cdmb7rsngqq13n6x190viwhn9nrhkn";
       };
       packageRequires = [ ];
       meta = {
@@ -3895,10 +3895,10 @@
     elpaBuild {
       pname = "package-lint";
       ename = "package-lint";
-      version = "0.24";
+      version = "0.25";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu/package-lint-0.24.tar";
-        sha256 = "1cdm86vyi3whq2gmb3dfkzir6hx2pf5m0yxg8pfj7ja31jfi4r25";
+        url = "https://elpa.nongnu.org/nongnu/package-lint-0.25.tar";
+        sha256 = "0nagz2ynqg0vlh8sz1ss0g78j1qi3ni1x74gzbnk3i67wwkrld8k";
       };
       packageRequires = [ let-alist ];
       meta = {
@@ -5552,10 +5552,10 @@
     elpaBuild {
       pname = "xah-fly-keys";
       ename = "xah-fly-keys";
-      version = "26.9.20250301145516";
+      version = "26.10.20250308091402";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu/xah-fly-keys-26.9.20250301145516.tar";
-        sha256 = "1lqvkpjq5hxjnl0gbdvp0hb7zpwdx6cy172757g1ipr5z23p9g56";
+        url = "https://elpa.nongnu.org/nongnu/xah-fly-keys-26.10.20250308091402.tar";
+        sha256 = "1rni5rjz7m4lxjcxhn2h4cds4d67hbd6c8hf731n6ygygarhjp9p";
       };
       packageRequires = [ ];
       meta = {

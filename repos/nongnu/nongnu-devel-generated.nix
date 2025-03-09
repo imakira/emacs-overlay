@@ -347,10 +347,10 @@
     elpaBuild {
       pname = "bind-map";
       ename = "bind-map";
-      version = "1.1.2.0.20240308.155008";
+      version = "1.1.2.0.20250308.71029";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/bind-map-1.1.2.0.20240308.155008.tar";
-        sha256 = "1vrn55667x38qqcaqy8f9p1l5f79j551qjw4m01k5ndan1ybbs8p";
+        url = "https://elpa.nongnu.org/nongnu-devel/bind-map-1.1.2.0.20250308.71029.tar";
+        sha256 = "0z0dzlxj011nggzgzk5g4dwc1c2z78264pggj8li0h15216yq3ll";
       };
       packageRequires = [ ];
       meta = {
@@ -594,10 +594,10 @@
     elpaBuild {
       pname = "clojure-ts-mode";
       ename = "clojure-ts-mode";
-      version = "0.2.3.0.20250304.134254";
+      version = "0.2.3.0.20250308.183559";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/clojure-ts-mode-0.2.3.0.20250304.134254.tar";
-        sha256 = "0kj91vq49p8q7l1gyjg8w49aylpclf1vmss4pvyckyz10n2618yp";
+        url = "https://elpa.nongnu.org/nongnu-devel/clojure-ts-mode-0.2.3.0.20250308.183559.tar";
+        sha256 = "0rha0h795zdjczb6dp695b2pw420nl7c2la3ww1nd8zpaqbccg20";
       };
       packageRequires = [ ];
       meta = {
@@ -923,10 +923,10 @@
     elpaBuild {
       pname = "dirvish";
       ename = "dirvish";
-      version = "2.1.0.0.20250306.130043";
+      version = "2.2.3.0.20250308.132626";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/dirvish-2.1.0.0.20250306.130043.tar";
-        sha256 = "1s1qd3l8c6d3iq4wbl6lir2sq4nyqw6g45n0h7r51d724gxpxkdr";
+        url = "https://elpa.nongnu.org/nongnu-devel/dirvish-2.2.3.0.20250308.132626.tar";
+        sha256 = "0r8qmrziw88skpafbq5m415iz2dffdmdk31l6hsjp25pirkfivm6";
       };
       packageRequires = [ ];
       meta = {
@@ -2348,10 +2348,10 @@
     elpaBuild {
       pname = "gptel";
       ename = "gptel";
-      version = "0.9.7.0.20250305.191032";
+      version = "0.9.7.0.20250308.125125";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/gptel-0.9.7.0.20250305.191032.tar";
-        sha256 = "1vmb5acny8rx12801qyig68szr4qlkggzyzx0mrj88jwdwmknxmr";
+        url = "https://elpa.nongnu.org/nongnu-devel/gptel-0.9.7.0.20250308.125125.tar";
+        sha256 = "0wz292zs15yia1z85kfipdqgb4hzj78pql3adngibwjkfvb32b6g";
       };
       packageRequires = [
         compat
@@ -3044,10 +3044,10 @@
     elpaBuild {
       pname = "llama";
       ename = "llama";
-      version = "0.6.1.0.20250306.191941";
+      version = "0.6.1.0.20250307.172949";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/llama-0.6.1.0.20250306.191941.tar";
-        sha256 = "030h51jg4frgwgdilhbrljq2956bc4ykvha2mj6zfmacmlfn49w5";
+        url = "https://elpa.nongnu.org/nongnu-devel/llama-0.6.1.0.20250307.172949.tar";
+        sha256 = "10ipwhbh3k8qdi9xlxhkknqmdii0zxlydy24x8x8adwqwkwbnzmf";
       };
       packageRequires = [ compat ];
       meta = {
@@ -3872,10 +3872,10 @@
     elpaBuild {
       pname = "package-lint";
       ename = "package-lint";
-      version = "0.24.0.20250303.135334";
+      version = "0.25.0.20250307.91203";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/package-lint-0.24.0.20250303.135334.tar";
-        sha256 = "172a46ji7dvb4fqqyf3dvnj2gd4ifwysvwrl1d6b9kwpda0w4czf";
+        url = "https://elpa.nongnu.org/nongnu-devel/package-lint-0.25.0.20250307.91203.tar";
+        sha256 = "11yx2k7bsyi4ql8jhyz36s0pcxr0d6ssnnv7w128qfy9k0bklnr7";
       };
       packageRequires = [ let-alist ];
       meta = {
@@ -5538,10 +5538,10 @@
     elpaBuild {
       pname = "xah-fly-keys";
       ename = "xah-fly-keys";
-      version = "26.9.20250301145516.0.20250301.145553";
+      version = "26.10.20250308091402.0.20250308.122854";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/xah-fly-keys-26.9.20250301145516.0.20250301.145553.tar";
-        sha256 = "0mh27p4hhjw613z8lcnv8ix6yd49a882qfk0qh9w2g2x4m04qrrg";
+        url = "https://elpa.nongnu.org/nongnu-devel/xah-fly-keys-26.10.20250308091402.0.20250308.122854.tar";
+        sha256 = "0c0afwkjp8p445qs2rfg7n9gs842bq46di95q10ab9s8qcg4j7d8";
       };
       packageRequires = [ ];
       meta = {
